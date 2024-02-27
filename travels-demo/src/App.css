@@ -22872,3 +22872,32 @@ iframe {
 .nav-bg{
   background-color: #F0F4F9;
 }
+.buy-now-bt{
+  text-decoration: none;
+  color: antiquewhite;
+  border: none;
+  border-radius: 10px;
+  width: 100px;
+  height: 40px;
+  animation: blink 2s 0s infinite;
+  font-size: 17px;
+}
+.buy-now{
+  position: fixed;
+  top: 85px;
+  z-index: 98;
+  margin-left: 20px;
+}
+.buy-now:hover{
+  transform: scale(1.1);
+}
+ 
+@keyframes blink{
+  0%,
+  100%{
+    background-color: #ce9206;
+  }
+  50%{
+    background-color: rgb(8, 80, 2);
+  }
+}

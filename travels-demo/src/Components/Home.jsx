@@ -66,6 +66,11 @@ const Home = () => {
           </div>
         </nav>
 
+        <div className='buy-now d-flex justify-content-center align-items-center rounded-2'>
+          <a href="https://axesstechnology.in/contact" target='_blank'>
+            <button className='buy-now-bt'>BuyNow</button></a>
+        </div>
+
         <section className="pt-5">
           <div className="bg-holder" style={{ backgroundImage: 'url(assets/image/hero/hero-bg.svg)' }}></div>
 
@@ -268,7 +273,7 @@ const Home = () => {
                       <div className="carousel-item position-relative active">
                         <div className="card shadow" style={{ borderRadius: '10px' }}>
                           <div>
-                          <img className="rounded-circle fit-cover" src={author1} height="65" width="65" alt="" />
+                            <img className="rounded-circle fit-cover" src={author1} height="65" width="65" alt="" />
                           </div>
                           {/* <div className="position-absolute start-0 top-0 translate-middle"><img className="rounded-circle fit-cover" src={author1} height="65" width="65" alt="" /></div> */}
                           <div className="card-body p-4">
@@ -282,7 +287,7 @@ const Home = () => {
                       <div className="carousel-item position-relative">
                         <div className="card shadow" style={{ borderRadius: '10px' }}>
                           <div>
-                          <img className="rounded-circle fit-cover" src={author2} height="65" width="65" alt="" />
+                            <img className="rounded-circle fit-cover" src={author2} height="65" width="65" alt="" />
                           </div>
                           {/* <div className="position-absolute start-0 top-0 translate-middle"><img className="rounded-circle fit-cover" src={author2} height="65" width="65" alt="" /></div> */}
                           <div className="card-body p-4">
@@ -296,7 +301,7 @@ const Home = () => {
                       <div className="carousel-item position-relative">
                         <div className="card shadow" style={{ borderRadius: '10px' }}>
                           <div>
-                          <img className="rounded-circle fit-cover" src={author3} height="65" width="65" alt="" />
+                            <img className="rounded-circle fit-cover" src={author3} height="65" width="65" alt="" />
                           </div>
                           {/* <div className="position-absolute start-0 top-0 translate-middle"><img className="rounded-circle fit-cover" src={author3} height="65" width="65" alt="" /></div> */}
                           <div className="card-body p-4">
