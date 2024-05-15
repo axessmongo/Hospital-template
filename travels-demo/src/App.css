@@ -395,7 +395,7 @@ button,
 [type="button"],
 [type="reset"],
 [type="submit"] {
-  -webkit-appearance: button;
+  --webkit-appearance: button;
 }
 
 button:not(:disabled),
@@ -456,7 +456,7 @@ legend+* {
 
 [type="search"] {
   outline-offset: -2px;
-  -webkit-appearance: textfield;
+  --webkit-appearance: textfield;
 }
 
 /* rtl:raw:
@@ -3244,8 +3244,8 @@ textarea.form-control-lg {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  -webkit-print-color-adjust: exact;
-  color-adjust: exact;
+  --webkit-print-color-adjust: exact;
+  --color-adjust: exact;
 }
 
 .form-check-input[type="checkbox"] {
@@ -21914,7 +21914,7 @@ iframe {
 .text-gradient {
   background: -o-linear-gradient(40deg, #fb3c00, #ffb800);
   background: linear-gradient(50deg, #fb3c00, #ffb800);
-  -webkit-background-clip: text;
+  --webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 

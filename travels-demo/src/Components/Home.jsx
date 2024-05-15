@@ -355,6 +355,8 @@ const Home = () => {
             </div>
           </div>
         </div>
+        <div className='col-md-6'></div>
+
 
         <section className="pt-6">
           <div className="container">
