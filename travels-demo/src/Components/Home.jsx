@@ -66,10 +66,10 @@ const Home = () => {
           </div>
         </nav>
 
-        <div className='buy-now d-flex justify-content-center align-items-center rounded-2'>
+        {/* <div className='buy-now d-flex justify-content-center align-items-center rounded-2'>
           <a href="https://axesstechnology.in/contact" target='_blank'>
             <button className='buy-now-bt'>BuyNow</button></a>
-        </div>
+        </div> */}
 
         <section className="pt-5">
           <div className="bg-holder" style={{ backgroundImage: 'url(assets/image/hero/hero-bg.svg)' }}></div>
@@ -80,15 +80,16 @@ const Home = () => {
                 <img className="pt-7 pt-md-0 hero-img" src={herohead} alt="hero-header" />
               </div>
               <div className="col-md-7 col-lg-6 text-md-start text-center py-6">
-                <h4 className="fw-bold text-danger mb-3">Best Destinations around the world</h4>
+                <h4 className="fw-bold text-danger mb-3">Explore the World's Best Destinations with Axess Travels</h4>
                 <h1 className="hero-title">Travel, enjoy and live a new and full life</h1>
                 <p className="mb-4 fw-medium">
-                  Built Wicket longer admire do barton vanity itself do in it.<br className="d-none d-xl-block" />
-                  Preferred to sportsmen it engrossed listening. Park gate<br className="d-none d-xl-block" />
-                  sell they west hard for the.
+                  <br className="d-none d-xl-block" />
+                  From Machu Picchu to Tokyo, Paris to New Zealand, our destinations promise to inspire and captivate.<br className="d-none d-xl-block" />
+                  Let Axess Travels guide you to extraordinary experiences and new perspectives. Start your journey
+                  today.
                 </p>
                 <div className="text-center text-md-start">
-                  <a className="btn btn-primary btn-lg me-md-4 mb-3 mb-md-0 border-0 primary-btn-shadow" href="#!" role="button">Find out more</a>
+                  {/* <a className="btn btn-primary btn-lg me-md-4 mb-3 mb-md-0 border-0 primary-btn-shadow" href="#!" role="button">Find out more</a> */}
                   <div className="w-100 d-block d-md-none"></div>
                   <button className="btn" onClick={() => setShowModal(true)}>
                     <span className="btn btn-danger round-btn-lg rounded-circle me-3 danger-btn-shadow">
@@ -115,14 +116,18 @@ const Home = () => {
           <div className="container">
             <div className="position-absolute z-index--1 end-0 d-none d-lg-block"><img src={serviceShape} style={{ maxWidth: "200px" }} alt="service" /></div>
             <div className="mb-7 text-center">
-              <h5 className="text-secondary">CATEGORY </h5>
-              <h3 className="fs-xl-10 fs-lg-8 fs-7 fw-bold font-cursive text-capitalize">We Offer Best Services</h3>
+              <h5 className="text-secondary">Explore Our Top Services at Axess Travels </h5>
+              <h3 className="fs-xl-10 fs-lg-8 fs-7 fw-bold font-cursive text-capitalize mt-4">Discover the Best of Axess Travels</h3>
             </div>
             <div className="row">
-              <ServiceCard image={serviceIcon1} title="Weather" description="Built Wicket longer admire do barton vanity itself do in it." />
-              <ServiceCard image={serviceIcon2} title="Best Flights" description="Engrossed listening. Park gate sell they west hard for the." />
-              <ServiceCard image={serviceIcon3} title="Local Events" description="Barton vanity itself do in it. Preferd to men it engrossed listening." />
-              <ServiceCard image={serviceIcon4} title="Customization" description="We deliver outsourced aviation services for military customers" />
+              <ServiceCard image={serviceIcon1} title="Calculated Weather Service" description="Ensure a smooth journey with our calculated weather forecasts, providing you with accurate insights for
+a seamless travel experience." />
+              <ServiceCard image={serviceIcon2} title="Best Flights Service" description="Find the perfect flight for your adventure with Axess Travels. Our dedicated team  in
+securing the best flights to your desired destinations." />
+              <ServiceCard image={serviceIcon3} title="Local Events Service" description="Immerse yourself in the vibrant culture  destination with our local events service. From festivals
+to cultural exhibitions." />
+              <ServiceCard image={serviceIcon4} title="Customization Service" description="At Axess Travels, we understand that every traveller is unique. That's why we offer customizable
+services specific preferences. " />
             </div>
           </div>
         </section>
@@ -132,7 +137,7 @@ const Home = () => {
             <div className="position-absolute start-100 bottom-0 translate-middle-x d-none d-xl-block ms-xl-n4"><img src={dest} alt="destination" /></div>
             <div className="mb-7 text-center">
               <h5 className="text-secondary">Top Selling </h5>
-              <h3 className="fs-xl-10 fs-lg-8 fs-7 fw-bold font-cursive text-capitalize">Top Destinations</h3>
+              <h3 className="fs-xl-10 fs-lg-8 fs-7 fw-bold font-cursive text-capitalize mt-4">Top Destinations at Axess Travels</h3>
             </div>
             <div className="row">
               <div className="col-md-4 mb-4">
@@ -141,7 +146,7 @@ const Home = () => {
                   <div className="card-body py-4 px-3">
                     <div className="d-flex flex-column flex-lg-row justify-content-between mb-3">
                       <h4 className="text-secondary fw-medium"><a className="link-900 text-decoration-none stretched-link" href="#!">Rome, Italty</a></h4>
-                      <span className="fs-1 fw-medium">$5,42k</span>
+                      <span className="fs-1 fw-medium">₹5.42 lakhs.</span>
                     </div>
                     <div className="d-flex align-items-center">
                       <img src={dest4} style={{ marginRight: '14px' }} width="20" alt="navigation" />
@@ -156,7 +161,7 @@ const Home = () => {
                   <div className="card-body py-4 px-3">
                     <div className="d-flex flex-column flex-lg-row justify-content-between mb-3">
                       <h4 className="text-secondary fw-medium"><a className="link-900 text-decoration-none stretched-link" href="#!">London, UK</a></h4>
-                      <span className="fs-1 fw-medium">$4.2k</span>
+                      <span className="fs-1 fw-medium">₹4.2 lakhs.</span>
                     </div>
                     <div className="d-flex align-items-center">
                       <img src={dest4} style={{ marginRight: '14px' }} width="20" alt="navigation" />
@@ -171,7 +176,7 @@ const Home = () => {
                   <div className="card-body py-4 px-3">
                     <div className="d-flex flex-column flex-lg-row justify-content-between mb-3">
                       <h4 className="text-secondary fw-medium"><a className="link-900 text-decoration-none stretched-link" href="#!">Full Europe</a></h4>
-                      <span className="fs-1 fw-medium">$15k</span>
+                      <span className="fs-1 fw-medium">₹15 lakhs.</span>
                     </div>
                     <div className="d-flex align-items-center">
                       <img src={dest4} style={{ marginRight: '14px' }} width="20" alt="navigation" />
@@ -189,31 +194,32 @@ const Home = () => {
             <div className="row align-items-center">
               <div className="col-lg-6">
                 <div className="mb-4 text-start">
-                  <h5 className="text-secondary">Easy and Fast</h5>
-                  <h3 className="fs-xl-10 fs-lg-8 fs-7 fw-bold font-cursive text-capitalize">Book your next trip in 3 easy steps</h3>
+                  <h5 className="text-secondary">Easy and Fast Booking Process with Axess Travels</h5>
+                  <h3 className="fs-xl-10 fs-lg-8 fs-7 fw-bold font-cursive text-capitalize mt-4 ">Book Your Next Trip In 3 Easy Steps:</h3>
                 </div>
                 <div className="d-flex align-items-start mb-5">
-                  <div className="bg-primary me-sm-4 me-3 p-3" style={{ borderRadius: '13px' }}><img src={step1} width="22" alt="steps" /></div>
+                  <div className="bg-primary me-sm-4 me-3 p-3 mt-3" style={{ borderRadius: '13px' }}><img src={step1} width="22" alt="steps" /></div>
                   <div className="flex-1">
-                    <h5 className="text-secondary fw-bold fs-0">Choose Destination</h5>
-                    <p>Choose your favorite place. No matter <br className="d-none d-sm-block" />where you travel inside the World.</p>
+                    <h5 className="text-secondary fw-bold fs-0 mt-3">Choose Your Destination:</h5>
+                    <p>Select your favourite destination from anywhere in the world. Whether you're <br className="d-none d-sm-block" />streets of Tokyo or the serene beaches of Bali, we've got you covered.</p>
                   </div>
                 </div>
                 <div className="d-flex align-items-start mb-5">
                   <div className="bg-danger me-sm-4 me-3 p-3" style={{ borderRadius: '13px' }}><img src={step2} width="22" alt="steps" /></div>
                   <div className="flex-1">
                     <h5 className="text-secondary fw-bold fs-0">Make Payment</h5>
-                    <p>After finding your perfect spot, make your <br className="d-none d-sm-block" />payment and get ready to travel.</p>
+                    <p>Once you've found your perfect spot, proceed to make your payment securely and hassle-free. <br className="d-none d-sm-block" />Our streamlined payment process ensures a seamless booking experience.</p>
                   </div>
                 </div>
                 <div className="d-flex align-items-start mb-5">
                   <div className="bg-info me-sm-4 me-3 p-3" style={{ borderRadius: '13px' }}><img src={step3} width="22" alt="steps" /></div>
                   <div className="flex-1">
                     <h5 className="text-secondary fw-bold fs-0">Reach Airport on Selected Date</h5>
-                    <p>Lastly, you have to arrive at the airport <br className="d-none d-sm-block" />on time and enjoy the vacation.</p>
+                    <p>Finally, all that's left to do is to arrive at the airport on your selected date and time. From there, <br className="d-none d-sm-block" />you can sit back, relax, and enjoy your well-deserved vacation.</p>
                   </div>
                 </div>
               </div>
+
               <div className="col-lg-6 d-flex justify-content-center align-items-start">
                 <div className="card position-relative shadow" style={{ maxWidth: '370px' }}>
                   <div className="position-absolute z-index--1 me-10 me-xxl-0" style={{ right: '-160px', top: '-210px' }}><img src={step7} style={{ maxWidth: '550px' }} alt="shape" /></div>
@@ -257,7 +263,7 @@ const Home = () => {
               <div className="col-lg-5">
                 <div className="mb-8 text-start">
                   <h5 className="text-secondary">Testimonials</h5>
-                  <h3 className="fs-xl-10 fs-lg-8 fs-7 fw-bold font-cursive text-capitalize">What people say about Us.</h3>
+                  <h3 className="fs-xl-10 fs-lg-8 fs-7 fw-bold font-cursive text-capitalize mt-4">What people say about Us.</h3>
                 </div>
               </div>
               <div className="col-lg-1"></div>
@@ -277,9 +283,11 @@ const Home = () => {
                           </div>
                           {/* <div className="position-absolute start-0 top-0 translate-middle"><img className="rounded-circle fit-cover" src={author1} height="65" width="65" alt="" /></div> */}
                           <div className="card-body p-4">
-                            <p className="fw-medium mb-4">"On the Windows talking painted pasture yet its express parties use. Sure last upon he same as knew next. Of believed or diverted no."</p>
-                            <h5 className="text-secondary">Mike taylor</h5>
-                            <p className="fw-medium fs--1 mb-0">Lahore, Pakistan</p>
+                            <p className="fw-medium mb-4">"What an incredible experience! Axess Travels made my dream vacation a reality. From the moment I
+                              booked my trip to the day I returned home, everything was seamless and stress-free. I can't wait to book
+                              with them again!"</p>
+                            <h5 className="text-secondary">Stephen J</h5>
+                            <p className="fw-medium fs--1 mb-0">Milan, Italy</p>
                           </div>
                         </div>
                         <div className="card shadow-sm position-absolute top-0 z-index--1 mb-3 w-100 h-100" style={{ borderRadius: '10px', transform: 'translate(25px, 25px)' }}></div>
@@ -291,9 +299,11 @@ const Home = () => {
                           </div>
                           {/* <div className="position-absolute start-0 top-0 translate-middle"><img className="rounded-circle fit-cover" src={author2} height="65" width="65" alt="" /></div> */}
                           <div className="card-body p-4">
-                            <p className="fw-medium mb-4">"Jadoo is recognized as one of the finest travel agency in the world. When it came to planning a trip, I found them to be dependable."</p>
-                            <h5 className="text-secondary">Thomas Wagon</h5>
-                            <p className="fw-medium fs--1 mb-0">CEO of Red Button</p>
+                            <p className="fw-medium mb-4">"Booking with Axess Travels was the best decision I ever made. The entire process, from selecting my
+                              destination to reaching the airport, was effortless. I highly recommend them to anyone looking for an
+                              easy and enjoyable travel experience."</p>
+                            <h5 className="text-secondary">Rajesh Gupta,</h5>
+                            <p className="fw-medium fs--1 mb-0">Mumbai, India</p>
                           </div>
                         </div>
                         <div className="card shadow-sm position-absolute top-0 z-index--1 mb-3 w-100 h-100" style={{ borderRadius: '10px', transform: 'translate(25px, 25px)' }}></div>
@@ -305,9 +315,10 @@ const Home = () => {
                           </div>
                           {/* <div className="position-absolute start-0 top-0 translate-middle"><img className="rounded-circle fit-cover" src={author3} height="65" width="65" alt="" /></div> */}
                           <div className="card-body p-4">
-                            <p className="fw-medium mb-4">"On the Windows talking painted pasture yet its express parties use. Sure last upon he same as knew next. Of believed or diverted no."</p>
-                            <h5 className="text-secondary">Kelly Willium</h5>
-                            <p className="fw-medium fs--1 mb-0">Khulna, Bangladesh</p>
+                            <p className="fw-medium mb-4">"Axess Travels exceeded all my expectations. Their attention to detail and personalised service made
+                              me feel like a VIP throughout my entire trip. I'm already planning my next adventure with them!"</p>
+                            <h5 className="text-secondary">Emily Johnson</h5>
+                            <p className="fw-medium fs--1 mb-0">Sydney, Australia</p>
                           </div>
                         </div>
                         <div className="card shadow-sm position-absolute top-0 z-index--1 mb-3 w-100 h-100" style={{ borderRadius: '10px', transform: 'translate(25px, 25px)' }}></div>
@@ -366,7 +377,9 @@ const Home = () => {
               <div className="position-absolute start-0 bottom-0 ms-3 z-index--1 d-none d-sm-block"> <img src={cta3} style={{ maxWidth: '340px' }} alt="cta shape" /></div>
               <div className="row justify-content-center">
                 <div className="col-lg-8 col-md-10">
-                  <h2 className="text-secondary lh-1-7 mb-7">Subscribe to get information, latest news and other interesting offers about Cobham</h2>
+                  <h2 className="text-secondary lh-1-7 mb-7">Join our mailing list today to receive the latest news, exclusive offers, and exciting updates about our
+                    travel services.</h2>
+                    <p>Stay Updated with Axess Travels!</p>
                   <form className="row g-3 align-items-center w-lg-75 mx-auto">
                     <div className="col-sm">
                       <div className="input-group-icon">
@@ -390,7 +403,7 @@ const Home = () => {
               <div className="col-lg-3 col-md-7 col-12  mb-md-6 mb-lg-0 order-0">
                 {/* <img className="mb-4" src={footer1} width="150" alt="jadoo" /> */}
                 <h1 className='fs-1'>LOGO</h1>
-                <p className="fs--1 text-secondary mb-0 fw-medium">Book your trip in minute, get full Control for much longer.</p>
+                <p className="fs--1 text-secondary mb-0 fw-medium">Plan your journey in moments, seize the adventure for a lifetime.</p>
               </div>
               <div className="col-lg-2 col-md-4  mb-lg-0 order-lg-1 order-md-2">
                 <h4 className="footer-heading-color fw-bold font-sans-serif mb-3 mb-lg-4">Company</h4>
