@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import logo from '../Assets/Image/logo.svg';
+import logo from '../Assets/Image/LOGO.png';
 import herohead from '../Assets/Image/hero/hero-img.png';
 import heroplay from '../Assets/Image/hero/play.svg';
 import serviceShape from '../Assets/Image/category/shape.svg';
@@ -49,18 +49,18 @@ const Home = () => {
       <div className="main" id="top">
 
         <nav className="navbar navbar-expand-lg navbar-light fixed-top d-block nav-bg" data-navbar-on-scroll="data-navbar-on-scroll">
-          <div className="container">
-            <h1 className="navbar-brand fs-1">LOGO</h1>
-            {/* <a className="navbar-brand" href="index.html"><img src={logo} height="34" alt="logo" /></a> */}
+          <div className="container ">
+            
+            <a className="navbar-brand " href="index.html"><img src={logo} alt="logo"className='logo1' /></a>
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span className="navbar-toggler-icon"> </span></button>
-            <div className="collapse navbar-collapse border-top border-lg-0 mt-4 mt-lg-0" id="navbarSupportedContent">
+            <div className="collapse navbar-collapse  mt-4 mt-lg-0" id="navbarSupportedContent">
               <ul className="navbar-nav ms-auto pt-2 pt-lg-0 font-base align-items-lg-center align-items-start">
                 <li className="nav-item px-3 px-xl-4"><a className="nav-link fw-medium" aria-current="page" href="#service">Service</a></li>
                 <li className="nav-item px-3 px-xl-4"><a className="nav-link fw-medium" aria-current="page" href="#destination">Destination</a></li>
                 <li className="nav-item px-3 px-xl-4"><a className="nav-link fw-medium" aria-current="page" href="#booking">Booking</a></li>
                 <li className="nav-item px-3 px-xl-4"><a className="nav-link fw-medium" aria-current="page" href="#testimonial">Testimonial</a></li>
-                <li className="nav-item px-3 px-xl-4"><a className="nav-link fw-medium" aria-current="page" href="#!">Login</a></li>
-                <li className="nav-item px-3 px-xl-4"><a className="btn btn-outline-dark order-1 order-lg-0 fw-medium" href="#!">Sign Up</a></li>
+                <li className="nav-item px-3 px-xl-4"><a className="nav-link fw-medium" aria-current="page" href="#contact">Contact</a></li>
+                {/* <li className="nav-item px-3 px-xl-4"><a className="btn btn-outline-dark order-1 order-lg-0 fw-medium" href="#!">Sign Up</a></li> */}
               </ul>
             </div>
           </div>
@@ -369,7 +369,7 @@ services specific preferences. " />
         <div className='col-md-6'></div>
 
 
-        <section className="pt-6">
+        <section className="pt-6" id='contact'>
           <div className="container">
             <div className="py-8 px-5 position-relative text-center" style={{ backgroundColor: 'rgba(223, 215, 249, 0.199)', borderRadius: '129px 20px 20px 20px' }}>
               <div className="position-absolute start-100 top-0 translate-middle ms-md-n3 ms-n4 mt-3"> <img src={cta1} style={{ maxWidth: '70px' }} alt="send icon" /></div>
@@ -388,7 +388,7 @@ services specific preferences. " />
                       </div>
                     </div>
                     <div className="col-sm-auto">
-                      <button className="btn btn-danger orange-gradient-btn fs--1">Subscribe</button>
+                      <button className="btn btn-danger orange-gradient-btn fs--1">Contact us</button>
                     </div>
                   </form>
                 </div>
@@ -408,9 +408,9 @@ services specific preferences. " />
               <div className="col-lg-2 col-md-4  mb-lg-0 order-lg-1 order-md-2">
                 <h4 className="footer-heading-color fw-bold font-sans-serif mb-3 mb-lg-4">Company</h4>
                 <ul className="list-unstyled mb-0">
-                  <li className="mb-2"><a className="link-900 fw-medium text-decoration-none" href="#!">About</a></li>
+                  <li className="mb-2"><a className="link-900 fw-medium text-decoration-none" href="#service">Service</a></li>
                   <li className="mb-2"><a className="link-900 fw-medium text-decoration-none" href="#!">Careers</a></li>
-                  <li className="mb-2"><a className="link-900 fw-medium text-decoration-none" href="#!">Mobile</a></li>
+                  <li className="mb-2"><a className="link-900 fw-medium text-decoration-none" href="#contact">Contact</a></li>
                 </ul>
               </div>
               <div className="col-lg-2 col-md-4  mb-lg-0 order-lg-2 order-md-3">

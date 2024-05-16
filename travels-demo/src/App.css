@@ -1,4 +1,5 @@
-/* -------------------------------------------------------------------------- */
+--------------------------------------------------------------------------
+
 /*                                 Theme                                      */
 /* -------------------------------------------------------------------------- */
 /* prettier-ignore */
@@ -22869,10 +22870,11 @@ iframe {
 
 /*# sourceMappingURL=theme.css.map */
 
-.nav-bg{
+.nav-bg {
   background-color: #F0F4F9;
 }
-.buy-now-bt{
+
+.buy-now-bt {
   text-decoration: none;
   color: antiquewhite;
   border: none;
@@ -22882,22 +22884,30 @@ iframe {
   animation: blink 2s 0s infinite;
   font-size: 17px;
 }
-.buy-now{
+
+.buy-now {
   position: fixed;
   top: 85px;
   z-index: 98;
   margin-left: 20px;
 }
-.buy-now:hover{
+
+.buy-now:hover {
   transform: scale(1.1);
 }
- 
-@keyframes blink{
+
+.logo1  {
+  width: 250px;
+}
+
+@keyframes blink {
+
   0%,
-  100%{
+  100% {
     background-color: #ce9206;
   }
-  50%{
+
+  50% {
     background-color: rgb(8, 80, 2);
   }
 }
