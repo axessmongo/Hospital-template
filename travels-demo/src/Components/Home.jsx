@@ -401,15 +401,16 @@ services specific preferences. " />
           <div className="container">
             <div className="row">
               <div className="col-lg-3 col-md-7 col-12  mb-md-6 mb-lg-0 order-0">
-                {/* <img className="mb-4" src={footer1} width="150" alt="jadoo" /> */}
-                <h1 className='fs-1'>LOGO</h1>
-                <p className="fs--1 text-secondary mb-0 fw-medium">Plan your journey in moments, seize the adventure for a lifetime.</p>
+              <a className="navbar-brand " href="index.html"><img src={logo} alt="logo"className='logo1' /></a>
+
+              
+                <p className="fs--1 text-secondary mb-0 fw-medium mt-4">Plan your journey in moments, seize the adventure for a lifetime.</p>
               </div>
               <div className="col-lg-2 col-md-4  mb-lg-0 order-lg-1 order-md-2">
                 <h4 className="footer-heading-color fw-bold font-sans-serif mb-3 mb-lg-4">Company</h4>
                 <ul className="list-unstyled mb-0">
                   <li className="mb-2"><a className="link-900 fw-medium text-decoration-none" href="#service">Service</a></li>
-                  <li className="mb-2"><a className="link-900 fw-medium text-decoration-none" href="#!">Careers</a></li>
+                  <li className="mb-2"><a className="link-900 fw-medium text-decoration-none" href="#booking">Booking</a></li>
                   <li className="mb-2"><a className="link-900 fw-medium text-decoration-none" href="#contact">Contact</a></li>
                 </ul>
               </div>
@@ -444,7 +445,7 @@ services specific preferences. " />
             </div>
           </div>
           <div className="text-center pt-5">
-            <p className="mb-0 text-secondary fs--1 fw-medium">All rights reserved@jadoo.co</p>
+            <p className="mb-0 text-secondary fs--1 fw-medium">All rights reserved@axesstravels.com</p>
           </div>
         </section>
 
