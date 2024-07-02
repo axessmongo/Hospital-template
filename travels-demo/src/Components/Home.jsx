@@ -91,12 +91,7 @@ const Home = () => {
                 <div className="text-center text-md-start">
                   {/* <a className="btn btn-primary btn-lg me-md-4 mb-3 mb-md-0 border-0 primary-btn-shadow" href="#!" role="button">Find out more</a> */}
                   <div className="w-100 d-block d-md-none"></div>
-                  <button className="btn" onClick={() => setShowModal(true)}>
-                    <span className="btn btn-danger round-btn-lg rounded-circle me-3 danger-btn-shadow">
-                      <img src={heroplay} alt="play" className='img-fluid pt-2' />
-                    </span>
-                    Play Demo
-                  </button>
+                 
                   {showModal &&
                     <div className="modal fade show" style={{ display: 'block' }} id="popupVideo" tabIndex="-1" aria-labelledby="popupVideo" aria-hidden="true" onClick={() => setShowModal(false)}>
                       <div className="modal-dialog modal-dialog-centered modal-lg">
@@ -425,7 +420,7 @@ services specific preferences. " />
               <div className="col-lg-2 col-md-4  mb-lg-0 order-lg-3 order-md-4">
                 <h4 className="footer-heading-color fw-bold font-sans-serif mb-3 mb-lg-4">More</h4>
                 <ul className="list-unstyled mb-0">
-                  <li className="mb-2"><a className="link-900 fw-medium text-decoration-none" href="#!">Airlinefees</a></li>
+                  <li className="mb-2"><a className="link-900 fw-medium text-decoration-none" href="#!">Airline fees</a></li>
                   <li className="mb-2"><a className="link-900 fw-medium text-decoration-none" href="#!">Airline</a></li>
                   <li className="mb-2"><a className="link-900 fw-medium text-decoration-none" href="#!">Low fare tips</a></li>
                 </ul>
@@ -445,7 +440,7 @@ services specific preferences. " />
             </div>
           </div>
           <div className="text-center pt-5">
-            <p className="mb-0 text-secondary fs--1 fw-medium">All rights reserved@axesstravels.com</p>
+            <p className="mb-0 text-secondary fs--1 fw-medium">All rights reserved@axesstravels.in</p>
           </div>
         </section>
 
